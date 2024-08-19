@@ -2,7 +2,7 @@ version: "2.0"
 type: node-port
 services:
   vm:
-    image: filswan/ubuntu-ssh:22.04
+    image: nebulablock/ollama
     env:
       - sshkey=ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDD9nBhOz4mRt/aWsOPnAIZlPrp0c6ltywpZ6JMiF90G1WGP70Jd/oW/+rM8mejI6tWpUUoGNK6f5lgktG1QT0Y/fSV3cgPOvhBjegEM2GvtKcfhJAwpJS/lb2lSEcmII019E+n4n78FcuHGLU1DwSz1tpBb0QU13ZRINAEnN5nIDURVv0utJDNjV2Da1nsqBi1Joe0KpG+cST4+uO5JecaWVUp2xhXj9xuOYjr3zeivPYdOFMaKLOHQfLwqP2A7PfyK0N2hvZfxRU8pZmhDQuwi+OS4WgTNYH2SBsMh9rScnWibjYaN7BJmbylQ9bCS4FJ35HhS26BfzNVwJqvLmtR1ZmkGuzc+TOSDtCQd6o1cpsqfR88JNyWN2zVVkiNTi68PFwxr3l74cqWss9YHR4oNCah1vm+p/X7iUxOskhezrfJOKGHHPtbxFB86ptZG5J7z/j4an4/moIwd5WxCkW/quCZsUEvtdoW7RP51ksi1nzunEpMrN2fq4cHj3/SOzU= leitao@Laptop-Lei
       - username=leitao
